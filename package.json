@@ -1,0 +1,12 @@
+{
+  "name": "navicourse",
+  "version": "1.0.0",
+  "repository": "https://github.com/coding-hub-org/navicourse.git",
+  "scripts": {
+    "install:frontend": "cd ./packages && cd ./frontend && yarn",
+    "install:backend": "cd ./packages && cd ./backend && yarn",
+    "start:frontend": "cd ./packages && cd ./frontend && yarn dev",
+    "start:backend": "cd ./packages && cd ./backend && yarn start"
+  },
+  "license": "MIT"
+}
