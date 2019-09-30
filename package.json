@@ -5,6 +5,7 @@
   "scripts": {
     "install:frontend": "cd ./packages && cd ./frontend && yarn",
     "install:backend": "cd ./packages && cd ./backend && yarn",
+    "install": "yarn install:frontend && yarn install:backend",
     "start:frontend": "cd ./packages && cd ./frontend && yarn dev",
     "start:backend": "cd ./packages && cd ./backend && yarn start"
   },
