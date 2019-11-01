@@ -1,0 +1,23 @@
+.title--lg {
+	font-size: 45px;
+}
+
+.title--md {
+	font-size: 40px;
+}
+
+.title--sm {
+	font-size: 35px;
+}
+
+.title-upper {
+	text-transform: uppercase;
+}
+
+.title-red {
+	color: #ff5a6e;
+}
+
+.title-black {
+	color: #000000;
+}
