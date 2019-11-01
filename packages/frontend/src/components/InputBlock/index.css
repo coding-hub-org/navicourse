@@ -1,0 +1,12 @@
+.input-block {
+	border-radius: 10px;
+	width: 80%;
+	background-color: #f4f8f7;
+	border: none;
+	font-size: 25px;
+	padding: 20px;
+}
+
+.input-block::placeholder {
+	color: #929594;
+}
