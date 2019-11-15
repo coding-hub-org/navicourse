@@ -13,3 +13,16 @@
 .passwordBlock {
     margin-top: 15px;
 }
+.container {
+    
+    height: 0vh;
+    /* padding: 25px 35px; */
+    background-color: #ffffff;
+    text-align: right;
+}
+.login-landing img {
+    position: fixed;
+    top: 300px;
+    right: 13px;
+    width: 550px;
+  }
