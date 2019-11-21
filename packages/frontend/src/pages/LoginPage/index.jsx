@@ -4,13 +4,7 @@ import { Title } from "../../components/Title";
 import logo from "../../assets/pablo-sign-in.svg";
 import logo2 from "../../assets/Group 262 copy.svg";
 import { AuthButton } from "../../components/Button";
-// import iPhoneSize from "../LoginPage/utils";
 import "./index.css";
-
-// const size = iPhoneSize();
-// let termsTextsize = 13;
-
-// if (size === "small") termsTextsize = 12;
 
 export class LoginPage extends React.Component {
   render() {
