@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192.621" height="43.6" viewBox="0 0 192.621 43.6">
+  <g id="Group_262" data-name="Group 262" transform="translate(-69.379 -50.4)">
+    <g id="Group_261" data-name="Group 261" transform="translate(-4 -205)">
+      <line id="Line_4" data-name="Line 4" y2="34" transform="translate(88.5 258.5)" fill="none" stroke="#ff5a6e" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_7" data-name="Line 7" y2="34" transform="translate(88.5 258.5)" fill="none" stroke="#ff5a6e" stroke-linecap="round" stroke-width="3"/>
+      <g id="Group_259" data-name="Group 259">
+        <line id="Line_5" data-name="Line 5" y2="34" transform="translate(114.758 258.5)" fill="none" stroke="#ff5a6e" stroke-linecap="round" stroke-width="3"/>
+        <line id="Line_6" data-name="Line 6" x2="26.258" y2="35" transform="translate(88.5 257.5)" fill="none" stroke="#ff5a6e" stroke-linecap="round" stroke-width="3"/>
+        <line id="Line_8" data-name="Line 8" y2="34" transform="translate(114.758 258.5)" fill="none" stroke="#ff5a6e" stroke-linecap="round" stroke-width="3"/>
+        <line id="Line_9" data-name="Line 9" x2="26.258" y2="35" transform="translate(88.5 257.5)" fill="none" stroke="#ff5a6e" stroke-linecap="round" stroke-width="3"/>
+      </g>
+      <line id="Line_8-2" data-name="Line 8" x2="0.258" y2="12.37" transform="translate(101.5 284.5)" fill="none" stroke="#ff5a6e" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_9-2" data-name="Line 9" x2="26" y2="27" transform="translate(75.5 269.5)" fill="none" stroke="#ff5a6e" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_10" data-name="Line 10" y2="23" transform="translate(75.5 269.5)" fill="none" stroke="#ff5a6e" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_11" data-name="Line 11" x1="12.742" transform="translate(75.758 292.87)" fill="none" stroke="#ff5a6e" stroke-linecap="round" stroke-width="3"/>
+    </g>
+    <text id="avicourse" transform="translate(118 87)" font-size="35" font-family="HelveticaNeue-Light, Helvetica Neue" font-weight="300"><tspan x="0" y="0">avicourse</tspan></text>
+  </g>
+</svg>

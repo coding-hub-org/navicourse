@@ -10,6 +10,14 @@
 	font-size: 35px;
 }
 
+.title--xsm {
+	font-size: 30px
+}
+.title--xxsm{
+	font-size: 25px;
+}
+
+
 .title-upper {
 	text-transform: uppercase;
 }
