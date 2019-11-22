@@ -1,3 +1,70 @@
+.registerPage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 4em;
+    min-height: 100vh; 
+}
+
+.registerPage--right, .registerPage--left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.registerPage--right {
+    background-color: #FDF8ED;
+    box-sizing: border-box;
+    padding: 2em;
+}
+
+.registerPage--left {
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 40px;
+    align-items: center;
+}
+
+.registerPage--left h1 {
+    color: #ff5a6e;
+    text-align: center;
+    font-weight: 600;
+}
+
+.registerPage--left h3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.registerPage--left img {
+    display: inline;
+    align-self: flex-start;
+}
+
+.registerPage--left button {
+    background-color: #ff5a6e;
+    color: white;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+}
+
+.registerPage--left .input-block {
+    width: 100%;
+    font-size: 20px;
+}
+
+.registerPage--right img {
+    width: 100%;
+}
+
 .inputWrapper {
     display: flex;
     flex-direction: column;
@@ -6,23 +73,14 @@
 }
 
 .userBlock, .passwordBlock {
-    width: 60%;
     display: flex;
     align-items: left;
 }
 .passwordBlock {
     margin-top: 15px;
 }
-.container {
-    
+.container {    
     height: 0vh;
-    /* padding: 25px 35px; */
     background-color: #ffffff;
     text-align: right;
 }
-.login-landing img {
-    position: fixed;
-    top: 300px;
-    right: 13px;
-    width: 550px;
-  }

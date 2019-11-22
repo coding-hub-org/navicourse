@@ -8,25 +8,25 @@ import Pab from "../../assets/pabloNavi.svg"
 export class RegisterPage extends React.Component {
     render() {
         return (
-            <div style={{ margin: "20px" }}>
-                <img style={{ textAlign: "left" }} src={Logo} alt=""></img>
+            <div className="registerPage">
+                <div className="registerPage--left">
+                    <img style={{ textAlign: "left" }} src={Logo} alt=""></img>
+                    <div>
+                        <h1>REGISTER TO NAVICOURSE</h1>
+                        <h3>Welcome! Please register to review and read people’s reviews</h3>
 
-                <h1>
-                    <h5 style={{ textAlign: "justify", color: "#ff5a6e", fontSize: "40px" }}>REGISTER TO NAVICOURSE</h5>
-                    <h3 style={{ textAlign: "justify", fontFamily: "Times Roman", fontSize: "20px", padding: "15px", top: "100px", color: "Black" }}>Welcome! Please register to review and read people’s reviews</h3>
-
-                </h1>
-                <div className="inputWrapper">
-                    <div className="userBlock" ><InputBlock type={"text"} placeholder={"Username"} /></div>
-                    <div className="passwordBlock" ><InputBlock type={"password"} placeholder={"Password"} /></div>
-                </div>
-                <button style={{ textAlign: "center", backgroundColor: "#ff5a6e", color: "white", width: "150px", height: "50px", borderRadius: "12%", fontSize: "20px", padding: "0px", marginLeft: "59px", marginTop: "60px" }}>Register</button>
-                <h3 style={{ textAlign: "justify", fontFamily: "Times Roman", fontSize: "20px", padding: "25px", color: "Black" }}>Already have an account? Sign in</h3>
-                <div className="container">
-                    <div className="login-landing">
-                        <img src={Pab} alt="Man"></img>
+                        <div className="inputWrapper">
+                            <div className="userBlock" ><InputBlock type={"text"} placeholder={"Username"} /></div>
+                            <div className="passwordBlock" ><InputBlock type={"password"} placeholder={"Password"} /></div>
+                        </div>
+                        <button>Register</button>
                     </div>
+                    <h3>Already have an account? Sign in</h3>
                 </div>
+                <div className="registerPage--right">
+                    <img src={Pab} alt="Man"></img>
+                </div>
+
 
             </div>
         );
