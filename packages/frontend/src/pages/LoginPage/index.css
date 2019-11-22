@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.loginlt {
+  background-color: #f4f8f7;
+  width: 55vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loginrt {
+  height: 100vh;
+  width: 45vw;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.about p {
+  text-align: center;
+  font-size: 23px;
+  padding-left: 90px;
+  padding-right: 90px;
+  position: relative;
+  top: 60px;
+}
+
+.logo-container {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.logo-container img {
+  width: 150px;
+}
+
+.login-landing {
+  display: flex;
+  align-items: center;
+}
+
+.login-landing img {
+  display: block;
+  margin: auto;
+  width: 50vw;
+  position: relative;
+  top: 20px;
+}
+
+.form-landing {
+  margin: 20px;
+  position: relative;
+  bottom: 10px;
+  top: 1px;
+}
+
+.navicourse {
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  bottom: 20px;
+}
+
+.welcome p {
+  position: relative;
+  top: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.form {
+  position: relative;
+  top: 20px;
+  padding: 40px;
+}
+
+.submit {
+  position: relative;
+  top: 70px;
+}
+
+.pass {
+  position: relative;
+  top: 50px;
+}
+
+.doyou {
+  position: relative;
+  top: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 40px;
+}
+
+.doyou a {
+  text-decoration: none;
+  color: #ff5a6e;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 915px) {
+  .loginlt {
+    width: 0vw;
+    display: none;
+  }
+  .loginrt {
+    width: 100vw;
+  }
+}

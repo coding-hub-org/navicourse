@@ -9,5 +9,8 @@
     "start:frontend": "cd ./packages && cd ./frontend && yarn start",
     "start:backend": "cd ./packages && cd ./backend && yarn start"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "global": "^4.4.0"
+  }
 }
